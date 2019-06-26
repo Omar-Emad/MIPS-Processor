@@ -1,0 +1,6 @@
+              Instructions :                            //        Expected output
+00400000: 02319020	; <input:0> add $s2, $s1, $s1   //       $s2=17+17=34
+00400004: 00139080	; <input:1> sll $s2, $s3, 2     //       $s2=19*4=76
+00400008: 0230a824	; <input:2> and $s5, $s1, $s0   //       $s5=16
+0040000c: ad140004	; <input:3> sw $s4, 4($t0)      //       memory[8+4]=>memory[12]=20
+00400010: 8d930000	; <input:4> lw $s3, 0($t4)      //       $s3=memory[12]=20
